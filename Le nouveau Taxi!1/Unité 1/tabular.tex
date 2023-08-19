@@ -1,0 +1,86 @@
+%%%%%%%%%%%% Attribution %%%%%%%%%%%%
+% This template was created by 
+% Dr. Mahdi A. Khemakhem at PSAU
+% and may be copied and used freely for 
+% non-commercial purposes.
+% 01/15/2023
+% This template is created based on
+% exam document class created 
+% https://math.mit.edu/~psh/exam/examdoc.pdf  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[addpoints,12pt]{exam}
+%%%%%%% Uncomment next line and uncomment the previous one to diplay the exam solution  %%%%%%%
+%\documentclass[12pt,addpoints,answers]{exam} % To print with answers
+\linespread{1.2} 
+\usepackage{gfsartemisia-euler}
+\usepackage{ctex}
+\usepackage{xeCJK}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ %total={170mm,257mm},
+ left=10mm,
+ right=10mm,
+ top=10mm,
+ bottom=25mm,
+ }
+
+%%%%%%% To support Arabic language %%%%%%%
+
+
+
+%%%%%%% To support PSAU green color and table patterns %%%%%%%
+\usepackage{multirow}
+\usepackage[table]{xcolor}	%To can change colour lines and cells in tables
+\definecolor{mintgreen}{RGB}{177, 191, 180}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{colortbl}
+%%%%%%% Define pages footer %%%%%%%
+\usepackage{lastpage}
+% \lfoot{\textit{Final Exam-CS3701-Operation Systems}}
+% \cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+% \rfoot{\textit{Trimester 2, 2022$\slash$2023}}
+% \runningfootrule
+
+%%%%%%% Command for exam document class %%%%%%%
+\newcommand{\tf}[1][{}]{%
+\fillin[#1][0.25in]%
+}
+
+\begin{document}
+%\pagecolor{yellow!5}
+%%%%%%% Print marks in left margin %%%%%%%
+\pointsinmargin % To print points in margin
+\boxedpoints   % or \bracketedpoints
+
+%%%%%%% Include the exam cover defined by the file eaxm_cover.tex %%%%%%%
+\include{tabular_cover}
+
+\newpage
+
+
+
+% \begin{center}
+% \fbox{\fbox{\parbox{5.5in}{\centering
+% Hope you all the best! \\
+% Dr. X Y Z, \quad \quad
+% Dr. M N T}}}
+% \includegraphics[width=0.25\textwidth]{logo}
+% \end{center}
+
+ \end{document}
+
+
+
+
